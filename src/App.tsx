@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import Landing from './routes/Landing';
 import NotFound from './routes/NotFound';
@@ -10,10 +10,10 @@ const App: React.FC = () => {
 
   return (
     <Fragment>
-      <Switch>
-        <Route exact path='/' component={ Landing }/>
-        <Route component={ NotFound } />
-      </Switch>
+      <Routes>
+        <Route path='/' element={ <Landing/> }/>
+        <Route element={ <NotFound/> } />
+      </Routes>
     </Fragment>
   );
 };
