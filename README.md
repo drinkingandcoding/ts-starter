@@ -2,7 +2,7 @@
 
 ## Requirements
 
-This projects requires node 14+
+This projects requires node 16
 
 ## Running the project
 
