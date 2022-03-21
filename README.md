@@ -2,14 +2,15 @@
 
 ## Requirements
 
-This projects requires node 16
+This projects requires node 16 and [nvm](https://github.com/nvm-sh/nvm) to manage versions
 
 ## Running the project
 
 1. `git clone git@github.com:ryelo/ts-starter.git`
-2. `yarn install`
-3. `yarn start`
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. `nvm use` to set node version
+3. `yarn install`
+4. `yarn start`
+5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Available Scripts
 
